@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About Me - Vaishak's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.profile-container {
+				display: flex;
+				justify-content: center;
+				padding: 2rem;
+				margin-top: 2rem;
+			}
+			
+			.profile-image {
+				width: 450px;
+				height: 450px;
+				border-radius: 50%;
+				object-fit: cover;
+				border: 4px solid #ffffff;
+				box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+			}
+			
+			.profile-image:hover {
+				transform: scale(1.05);
+				box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+			}
+
+			.skill-section {
+				margin: 2rem 0;
+				padding: 1rem;
+				background: rgba(255, 255, 255, 0.05);
+				border-radius: 10px;
+			}
+
+			.skill-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				gap: 1rem;
+				margin-top: 1rem;
+			}
+
+			.skill-category {
+				padding: 1rem;
+				background: rgba(255, 255, 255, 0.05);
+				border-radius: 5px;
+			}
+
+			@media screen and (max-width: 736px) {
+				.profile-image {
+					width: 150px;
+					height: 150px;
+				}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<header id="header">
+				<a href="index.html" class="logo">About Me</a>
+			</header>
+
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About Me</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://github.com/Vaishaknair22" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/vaishaknair22/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				</ul>
+			</nav>
+
+			<div id="main">
+				<section class="post">
+					<header class="major">
+						<h1>About Me</h1>
+					</header>
+					
+					<div class="profile-container">
+						<img src="images/profile.png" alt="Vaishak" class="profile-image"/>
+					</div>
+
+					<div class="content">
+						<p>I'm a Data Science graduate student at Rochester Institute of Technology, where I also serve as a Graduate Teaching Assistant. My academic journey combines theoretical knowledge with practical applications in machine learning, computer vision, and data engineering.</p>
+						
+						<p>With a background in computer science and a passion for AI, I've worked on diverse projects ranging from Martian terrain analysis to real-time IoT monitoring systems. I believe in creating solutions that bridge the gap between complex technical challenges and practical applications.</p>
+
+						<div class="skill-section">
+							<h2>Technical Skills</h2>
+							<div class="skill-grid">
+								<div class="skill-category">
+									<h3>Programming Languages</h3>
+									<p>Python, Java, R, SQL, JavaScript</p>
+								</div>
+								<div class="skill-category">
+									<h3>Machine Learning</h3>
+									<p>PyTorch, TensorFlow, Scikit-learn, Deep Learning, Computer Vision</p>
+								</div>
+								<div class="skill-category">
+									<h3>Data Engineering</h3>
+									<p>Apache Kafka, Hadoop, Spark, Docker</p>
+								</div>
+								<div class="skill-category">
+									<h3>Tools & Technologies</h3>
+									<p>Git, AWS, Linux, MongoDB, PostgreSQL</p>
+								</div>
+							</div>
+						</div>
+
+						<h2>Education</h2>
+						<p><strong>MS in Data Science</strong><br>
+						Rochester Institute of Technology<br>
+						Expected Graduation: 2024</p>
+
+						<h2>Get in Touch</h2>
+						<p>I'm always interested in collaborating on innovative projects or discussing opportunities in data science and machine learning. Feel free to reach out via email or connect with me on LinkedIn.</p>
+					</div>
+				</section>
+			</div>
+
+			<footer id="footer">
+				<section class="split contact">
+					<section class="alt">
+						<h3>Address</h3>
+						<p>1507-B, 380 John St<br>
+						Rochester, NY 14623</p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="#">vn4057@g.rit.edu</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li><a href="https://github.com/Vaishaknair22" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/vaishaknair22/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+			<div id="copyright">
+				<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
